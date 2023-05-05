@@ -14,7 +14,7 @@ body {
 }
 
 .fc .fc-daygrid-day.fc-day-today {
-  background-color: #e9c852;
+  background-color: grey;
 }
 
 /* .fc-daygrid-selected {
@@ -95,9 +95,9 @@ body {
       font-size: 1.2rem;
     }
     .chore-wrapper h3{
-      font-size: .9rem;    }
+      font-size: .9rem;
   } 
-  .fc-toolbar-chunk{
+  /* .fc-toolbar-chunk{
     font-size: .9rem;
+  } */
   }
-
