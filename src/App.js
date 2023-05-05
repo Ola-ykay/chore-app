@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div className='chore-calender'>
-      <h1>Chore Calender</h1>
+      <h1>ChoreLog</h1>
       <FullCalendar
         plugins={[dayGridPlugin, interactionPlugin]}
         initialView="dayGridMonth"
