@@ -17,11 +17,18 @@ body {
 .fc .fc-daygrid-day.fc-day-today {
   background-color: grey;
 }
+.fc .fc-scrollgrid, .fc .fc-scrollgrid table{
+  border-radius: 10px;
+  
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.2) 0px 32px 16px;
+}
+tr{
+  padding: 10px;
+  box-shadow: rgba(65, 62, 62, 0.5) 0px 2px 4px, rgba(180, 171, 171, 0.3) 0px 7px 13px -3px, rgba(41, 39, 39, 0.2) 0px -3px 0px inset;
+  /* box-shadow: rgba(231, 215, 215, 0.5) 0px 3px 12px; */
+}
+/* .fc-dayGridMonth-view fc-view fc-daygrid */
 
-/* .fc-daygrid-selected {
-  background-color: #800020;
-  color: #fff; 
-} */
 .fc .fc-highlight {
   background-color: #c48191;
   color: #fff;
@@ -85,9 +92,12 @@ body {
  /* mobile responsiveness  */
 
   @media only screen and (max-width: 600px) {
+    body{
+      margin-top: 20%;
+    }
     .chore-calender h1{
       font-size: 1.5rem;
-      margin-top: 10%;
+      /* margin-top: 10%; */
     }
     .chore-wrapper{
       flex-direction: column;
