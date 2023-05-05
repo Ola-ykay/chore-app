@@ -11,6 +11,7 @@ body {
   font-family: 'Lora', serif;
   text-align: center;
   font-weight: 700;
+  
 }
 
 .fc .fc-daygrid-day.fc-day-today {
@@ -19,7 +20,7 @@ body {
 
 /* .fc-daygrid-selected {
   background-color: #800020;
-  color: #fff;
+  color: #fff; 
 } */
 .fc .fc-highlight {
   background-color: #c48191;
@@ -86,6 +87,7 @@ body {
   @media only screen and (max-width: 600px) {
     .chore-calender h1{
       font-size: 1.5rem;
+      margin-top: 10%;
     }
     .chore-wrapper{
       flex-direction: column;
@@ -97,7 +99,8 @@ body {
     .chore-wrapper h3{
       font-size: .9rem;
   } 
-  /* .fc-toolbar-chunk{
-    font-size: .9rem;
-  } */
+  .fc .fc-highlight {
+    background-color: #c48191;
+    color: #fff;
+  }
   }
