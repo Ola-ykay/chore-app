@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 body {
-  overflow: hidden;
+ 
   font-family: 'Josefin Sans', sans-serif;
   background: #000;
   color: #fff;
@@ -40,6 +40,12 @@ body {
   font-size: 2rem;
   font-weight: 700;
 }
+.image-cont{
+  background-color: #FFA500;
+  border-radius: 50%;
+padding: 10px;
+}
+
 
 .chore-wrapper{
   display: flex;
