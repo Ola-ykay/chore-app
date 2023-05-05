@@ -64,8 +64,6 @@ function App() {
       />
       {Object.keys(choresDetails).length > 0 && (
         <div className='chores-details'>
-         <div className='image-cont'><img src='./chorel
-         .png' alt='' /></div>
           <h2>Chore details for {choresDetails.date}</h2>
           <div className='chore-wrapper'>
             <div className='washing'>
